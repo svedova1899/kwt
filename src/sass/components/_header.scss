@@ -1,0 +1,45 @@
+header{
+    background-color: $bg-color;
+}
+.img-header{
+    width: 80px;
+}
+.header-div{
+    height: 130px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-div{
+    display: flex;
+    top: -120px;
+    gap: -5px;
+}
+.header-nav-list{
+  &__phone-number{
+    font-size: 15px;
+    font-family: $roboto-fonts;
+    font-weight: 400;
+    margin-top: 8px;
+    color: $header-text-color;
+    
+  }
+  &__phone-number-second{
+    font-size: 15px;
+    font-family: $roboto-fonts;
+    font-weight: 400;
+    margin-top: -17px;
+    color: $header-text-color;
+  }
+}
+.header-nav-list-second{
+    margin-top: 2px;
+    &__paragraph{
+        font-size: 15px;
+        font-family: $roboto-fonts;
+        font-weight: 400;
+        color: $header-text-color;
+    }
+}
+

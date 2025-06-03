@@ -25,5 +25,50 @@ body {
 .container {
   width: 1490px;
   margin: 0 auto;
-  outline: 2px solid red;
+}
+
+header {
+  background-color: #D9D9D9;
+}
+
+.img-header {
+  width: 80px;
+}
+
+.header-div {
+  height: 130px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-div {
+  display: flex;
+  top: -120px;
+  gap: -5px;
+}
+
+.header-nav-list__phone-number {
+  font-size: 15px;
+  font-family: "Roboto Flex", sans-serif;
+  font-weight: 400;
+  margin-top: 8px;
+  color: #424242;
+}
+.header-nav-list__phone-number-second {
+  font-size: 15px;
+  font-family: "Roboto Flex", sans-serif;
+  font-weight: 400;
+  margin-top: -17px;
+  color: #424242;
+}
+
+.header-nav-list-second {
+  margin-top: 2px;
+}
+.header-nav-list-second__paragraph {
+  font-size: 15px;
+  font-family: "Roboto Flex", sans-serif;
+  font-weight: 400;
+  color: #424242;
 }/*# sourceMappingURL=main.css.map */
