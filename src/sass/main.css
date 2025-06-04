@@ -45,30 +45,110 @@ header {
 .nav-div {
   display: flex;
   top: -120px;
-  gap: -5px;
+  gap: 24px;
 }
 
 .header-nav-list__phone-number {
+  padding-top: 8px;
   font-size: 15px;
   font-family: "Roboto Flex", sans-serif;
   font-weight: 400;
-  margin-top: 8px;
   color: #424242;
 }
 .header-nav-list__phone-number-second {
+  margin-top: 2px;
   font-size: 15px;
   font-family: "Roboto Flex", sans-serif;
   font-weight: 400;
-  margin-top: -17px;
   color: #424242;
 }
 
-.header-nav-list-second {
-  margin-top: 2px;
-}
 .header-nav-list-second__paragraph {
   font-size: 15px;
   font-family: "Roboto Flex", sans-serif;
   font-weight: 400;
   color: #424242;
+}
+.header-nav-list-second__paragraph-second {
+  font-size: 15px;
+  font-family: "Roboto Flex", sans-serif;
+  font-weight: 400;
+  color: #424242;
+  padding-top: 22px;
+}
+
+.description-section {
+  margin-top: 5px;
+  background-image: url("/src/img/png/header-bg.png");
+  background-repeat: no-repeat;
+  height: 685px;
+  background-position: 40px;
+}
+.description-section__div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.description-list {
+  padding-top: 80px;
+}
+.description-list__title {
+  font-size: 70px;
+  font-family: "Roboto Flex", sans-serif;
+  font-weight: 500;
+}
+.description-list__paragraph {
+  font-size: 25px;
+  font-family: "Roboto Flex", sans-serif;
+  font-weight: 400;
+  padding-top: 25px;
+}
+.description-list__paragraph-help {
+  font-size: 25px;
+  font-family: "Roboto Flex", sans-serif;
+  font-weight: 400;
+  padding-top: 6px;
+}
+
+.explain-text-div {
+  display: flex;
+  margin-bottom: 90px;
+}
+.explain-text-div__paragraph {
+  font-size: 25px;
+  font-family: "Roboto Flex", sans-serif;
+  font-weight: 400;
+  padding-top: 80px;
+}
+.explain-text-div__img {
+  padding-top: 170px;
+  position: relative;
+}
+
+.explain-list {
+  position: absolute;
+  bottom: -1985px;
+}
+.explain-list__item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 1490px;
+  height: 300px;
+  background-color: #D9D9D9;
+  margin-top: 50px;
+  border-radius: 35px;
+}
+.explain-list__number {
+  font-family: "Roboto Flex", sans-serif;
+  font-weight: 400;
+  font-size: 100px;
+  margin-left: 35px;
+}
+.explain-list__paragraph {
+  font-size: 35px;
+  font-family: "Roboto Flex", sans-serif;
+  font-weight: 400;
+  width: 1275px;
+  margin-right: 35px;
 }/*# sourceMappingURL=main.css.map */

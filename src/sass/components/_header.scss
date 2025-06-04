@@ -14,32 +14,38 @@ header{
 .nav-div{
     display: flex;
     top: -120px;
-    gap: -5px;
+    gap: 24px;
 }
 .header-nav-list{
   &__phone-number{
+    padding-top: 8px;
     font-size: 15px;
     font-family: $roboto-fonts;
     font-weight: 400;
-    margin-top: 8px;
     color: $header-text-color;
     
   }
   &__phone-number-second{
+    margin-top: 2px;
     font-size: 15px;
     font-family: $roboto-fonts;
     font-weight: 400;
-    margin-top: -17px;
     color: $header-text-color;
   }
 }
 .header-nav-list-second{
-    margin-top: 2px;
     &__paragraph{
         font-size: 15px;
         font-family: $roboto-fonts;
         font-weight: 400;
         color: $header-text-color;
+    }
+    &__paragraph-second{
+        font-size: 15px;
+        font-family: $roboto-fonts;
+        font-weight: 400;
+        color: $header-text-color;
+        padding-top: 22px;
     }
 }
 
