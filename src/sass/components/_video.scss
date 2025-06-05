@@ -1,0 +1,20 @@
+.video-section {
+  background-image: url("/src/img/png/photo-duginets-pendulum.png");
+  background-repeat: no-repeat;
+  height: 1200px;
+  background-position: 40px;
+  display: flex;
+  align-items: center;
+
+}
+.video-btn {
+  background-color: $circle-color;
+  padding: 70px 35px;
+  border: none;
+  border-radius: 40px;
+  font-size: 30px;
+  font-family: $roboto-fonts;
+  font-weight: 400;
+  color: $header-text-color;
+  margin-left: 520px;
+}
