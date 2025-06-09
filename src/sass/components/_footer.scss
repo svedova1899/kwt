@@ -1,0 +1,30 @@
+.footer-section{
+    background-color: $footer-bg-color;
+    height: 210px;
+    margin-top: 175px;
+}
+.footer-div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+.img-footer{
+ width: 100px;
+}
+.footer-list{
+    &__paragraph{
+        font-size: 20px;
+        font-family: $roboto-fonts;
+        font-weight: 400;
+        color: $text-black-color;
+    }
+    &__paragraph-second{
+     font-size: 20px;
+        font-family: $roboto-fonts;
+        font-weight: 400;
+        color: $text-black-color;
+        padding-top: 22px;
+        margin-left: 105px;
+    }
+}

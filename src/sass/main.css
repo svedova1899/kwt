@@ -79,10 +79,9 @@ header {
 
 .description-section {
   margin-top: 5px;
-  background-image: url("/src/img/png/header-bg.png");
+  background-image: url("/src/img/png/header-bg-img.png");
   background-repeat: no-repeat;
   height: 685px;
-  background-position: 40px;
 }
 .description-section__div {
   display: flex;
@@ -158,7 +157,6 @@ header {
   background-repeat: no-repeat;
   height: 937px;
   margin-top: 365px;
-  background-position: 40px;
 }
 
 .duginets-pendulum-paragraph {
@@ -174,7 +172,6 @@ header {
   background-image: url("/src/img/png/photo-duginets-pendulum.png");
   background-repeat: no-repeat;
   height: 1200px;
-  background-position: 40px;
   display: flex;
   align-items: center;
 }
@@ -188,5 +185,84 @@ header {
   font-family: "Roboto Flex", sans-serif;
   font-weight: 400;
   color: #424242;
-  margin-left: 520px;
+  margin-left: 500px;
+}
+
+.circles {
+  display: flex;
+  justify-content: center;
+  padding-top: 400px;
+  gap: 140px;
+}
+.circles__yellow-circle {
+  background-color: #FFC600;
+  border-radius: 100%;
+  width: 400px;
+  height: 400px;
+}
+.circles__gray-circle {
+  background-color: #D9D9D9;
+  border-radius: 100%;
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  bottom: -4595px;
+}
+.circles__img {
+  width: 70px;
+  margin-left: 165px;
+  padding-top: 50px;
+}
+.circles__paragraph {
+  font-size: 25px;
+  font-family: "Roboto Flex", sans-serif;
+  font-weight: 400;
+  padding-top: 30px;
+  width: 375px;
+  padding-left: 37px;
+}
+
+.how-to-make-money-section-div {
+  display: flex;
+  justify-content: center;
+  padding-top: 155px;
+}
+.how-to-make-money-section-div__paragraph {
+  font-size: 30px;
+  font-family: "Roboto Flex", sans-serif;
+  font-weight: 400;
+  width: 917px;
+  text-align: center;
+}
+
+.footer-section {
+  background-color: #ADADAD;
+  height: 210px;
+  margin-top: 175px;
+}
+
+.footer-div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 50px;
+}
+
+.img-footer {
+  width: 100px;
+}
+
+.footer-list__paragraph {
+  font-size: 20px;
+  font-family: "Roboto Flex", sans-serif;
+  font-weight: 400;
+  color: #000000;
+}
+.footer-list__paragraph-second {
+  font-size: 20px;
+  font-family: "Roboto Flex", sans-serif;
+  font-weight: 400;
+  color: #000000;
+  padding-top: 22px;
+  margin-left: 105px;
 }/*# sourceMappingURL=main.css.map */

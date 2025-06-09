@@ -1,0 +1,45 @@
+.circles {
+  display: flex;
+  justify-content: center;
+  padding-top: 400px;
+  gap: 140px;
+  &__yellow-circle {
+    background-color: $circle-color;
+    border-radius: 100%;
+    width: 400px;
+    height: 400px;
+  }
+  &__gray-circle {
+    background-color: $bg-color;
+    border-radius: 100%;
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    bottom: -4595px;
+  }
+  &__img {
+    width: 70px;
+    margin-left: 165px;
+    padding-top: 50px;
+  }
+  &__paragraph {
+    font-size: 25px;
+    font-family: $roboto-fonts;
+    font-weight: 400;
+    padding-top: 30px;
+    width: 375px;
+    padding-left: 37px;
+  }
+}
+.how-to-make-money-section-div {
+    display: flex;
+    justify-content: center;
+    padding-top: 155px;
+  &__paragraph {
+    font-size: 30px;
+    font-family: $roboto-fonts;
+    font-weight: 400;
+    width: 917px;
+    text-align: center;
+  }
+}
