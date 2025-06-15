@@ -1,31 +1,41 @@
-.description-section{
-    margin-top: 5px;
-    background-image: url("/src/img/png/header-bg-img.png");
-    background-repeat: no-repeat;
-    height: 685px;
-    // background-position: 40px;
-    &__div{
-        display: flex;
-        justify-content: space-between;
-    }
+.description-section {
+  display: flex;
+  position: relative;
+  margin-top: 5px;
+  background-color: $bg-color;
+  background-repeat: no-repeat;
+  height: 685px;
+  &__img {
+    position: absolute;
+    left: 0;
+    z-index: 0;
+  }
+  &__div {
+    display: flex;
+    justify-content: space-between;
+  }
 }
-.description-list{
-    padding-top: 80px;
-    &__title{
-        font-size: 70px;
-        font-family: $roboto-fonts;
-        font-weight: 500;
-    }
-    &__paragraph{
-        font-size: 25px;
-        font-family: $roboto-fonts;
-        font-weight: 400;
-        padding-top: 25px;
-    }
-   &__paragraph-help{
-       font-size: 25px;
-        font-family: $roboto-fonts;
-        font-weight: 400;
-        padding-top: 6px;
-   }
+
+.description-list {
+  margin-left: 80px;
+  position: relative;
+  z-index: 1;
+  padding-top: 80px;
+  &__title {
+    font-size: 70px;
+    font-family: $roboto-fonts;
+    font-weight: 500;
+  }
+  &__paragraph {
+    font-size: 25px;
+    font-family: $roboto-fonts;
+    font-weight: 400;
+    padding-top: 25px;
+  }
+  &__paragraph-help {
+    font-size: 25px;
+    font-family: $roboto-fonts;
+    font-weight: 400;
+    padding-top: 6px;
+  }
 }

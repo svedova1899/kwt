@@ -1,31 +1,32 @@
-header{
-    background-color: $bg-color;
+header {
+  background-color: $bg-color;
+  width: 100%;
+  height: 130px;
 }
-.img-header{
-    width: 80px;
+.img-header {
+  width: 80px;
 }
-.header-div{
-    height: 130px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.header-div {
+ padding-top: 14px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.nav-div{
-    display: flex;
-    top: -120px;
-    gap: 24px;
+.nav-div {
+  position: relative;
+  display: flex;
+  gap: 24px;
 }
-.header-nav-list{
-  &__phone-number{
+.header-nav-list {
+  &__phone-number {
     padding-top: 8px;
     font-size: 15px;
     font-family: $roboto-fonts;
     font-weight: 400;
     color: $header-text-color;
-    
   }
-  &__phone-number-second{
+  &__phone-number-second {
     margin-top: 2px;
     font-size: 15px;
     font-family: $roboto-fonts;
@@ -33,19 +34,35 @@ header{
     color: $header-text-color;
   }
 }
-.header-nav-list-second{
-    &__paragraph{
-        font-size: 15px;
-        font-family: $roboto-fonts;
-        font-weight: 400;
-        color: $header-text-color;
-    }
-    &__paragraph-second{
-        font-size: 15px;
-        font-family: $roboto-fonts;
-        font-weight: 400;
-        color: $header-text-color;
-        padding-top: 22px;
-    }
+.header-nav-list-second {
+  &__paragraph {
+    font-size: 15px;
+    font-family: $roboto-fonts;
+    font-weight: 400;
+    color: $header-text-color;
+  }
+  &__paragraph-second {
+    font-size: 15px;
+    font-family: $roboto-fonts;
+    font-weight: 400;
+    color: $header-text-color;
+    padding-top: 22px;
+  }
 }
-
+@include respond($breakpoint-tablet) {
+  .img-header {
+    margin-left: 20px;
+  }
+.header-nav-list{
+  // margin-left: -1300px;
+}
+.header-nav-list-second__paragraph{
+  width: 390px;
+}
+.img-header{
+width: 70px;
+}
+.header-nav-list-second__paragraph-second{
+  width: 308px;
+}
+}
